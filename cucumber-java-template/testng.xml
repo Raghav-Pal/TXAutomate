@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Cucumber Suite" >
+
+<!-- All tests will show in Report  -->
+<test verbose="1" name="Cucumeber Test">
+    <classes>
+      	 <class name="step_definitions.RunCukesTest"/> 
+     </classes>
+  </test> 
+  
+</suite> <!-- Default suite -->

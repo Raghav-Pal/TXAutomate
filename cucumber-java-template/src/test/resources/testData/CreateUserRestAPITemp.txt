@@ -1,0 +1,23 @@
+{
+  "business": {
+    "name": "Townsquared",
+    "apartment_number": "123",
+    "address": "3180 17th Street",
+    "postal_code": "94110",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "US",
+    "google_place_id": "ChIJJ5-0ySR-j4ARIgjazsCGVg4",
+    "lat": 37.763791,
+    "lon": -122.41688599999998,
+    "website": "http://www.townsqd.com/"
+  },
+  "user": {
+    "first_name": "ReplaceFN",
+    "last_name": "ReplaceLN",
+    "email": "ReplaceEmail",
+    "password": "ReplacePassword",  
+    "invite_code": "easy"
+  },
+  "employee_type": "owner"
+}

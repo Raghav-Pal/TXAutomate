@@ -1,0 +1,282 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>cucumber</groupId>
+	<artifactId>cucumber-java-template</artifactId>
+	<version>0.0.1</version>
+	<packaging>jar</packaging>
+	<name>Cucumber-JVM template</name>
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-core -->
+		<dependency>
+			<groupId>info.cukes</groupId>
+			<artifactId>cucumber-core</artifactId>
+			<version>1.2.5</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-java -->
+		<dependency>
+			<groupId>info.cukes</groupId>
+			<artifactId>cucumber-java</artifactId>
+			<version>1.2.5</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-testng -->
+
+
+		<dependency>
+			<groupId>info.cukes</groupId>
+			<artifactId>cucumber-junit</artifactId>
+			<version>1.2.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-server</artifactId>
+			<version>3.4.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>3.4.0</version>
+		</dependency>
+		<dependency>
+			<groupId>info.cukes</groupId>
+			<artifactId>cucumber-testng</artifactId>
+			<version>1.2.4</version>
+		</dependency>
+
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.11</version>
+		</dependency>
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.17</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>3.15</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-picocontainer -->
+		<dependency>
+			<groupId>info.cukes</groupId>
+			<artifactId>cucumber-picocontainer</artifactId>
+			<version>1.2.5</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/info.cukes/gherkin -->
+		<dependency>
+			<groupId>info.cukes</groupId>
+			<artifactId>gherkin</artifactId>
+			<version>2.12.2</version>
+		</dependency>
+		<dependency>
+			<groupId>com.relevantcodes</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>2.41.2</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/javax.mail/mail -->
+		<dependency>
+			<groupId>javax.mail</groupId>
+			<artifactId>mail</artifactId>
+			<version>1.4</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>3.15</version>
+		</dependency>
+		<dependency>
+			<groupId>xml-apis</groupId>
+			<artifactId>xml-apis</artifactId>
+			<version>2.0.2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.xmlbeans</groupId>
+			<artifactId>xmlbeans</artifactId>
+			<version>2.5.0</version>
+		</dependency>
+		<dependency>
+			<groupId>xerces</groupId>
+			<artifactId>xercesImpl</artifactId>
+			<version>2.8.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.xmlrpc</groupId>
+			<artifactId>xmlrpc-client</artifactId>
+			<version>3.1.3</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.ws.commons.util</groupId>
+			<artifactId>ws-commons-util</artifactId>
+			<version>1.0.2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.xmlrpc</groupId>
+			<artifactId>xmlrpc-common</artifactId>
+			<version>3.1.3</version>
+		</dependency>
+		<dependency>
+			<groupId>com.jayway.restassured</groupId>
+			<artifactId>rest-assured</artifactId>
+			<version>2.8.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.jayway.restassured</groupId>
+			<artifactId>json-schema-validator</artifactId>
+			<version>2.8.0</version>
+		</dependency>
+
+		<!--Configure below external Jar to Maven repository using ExternalMavenJars.txt 
+			file in lib folder of the project -->
+
+		<dependency>
+			<groupId>com.extjar.framework</groupId>
+			<artifactId>ant-launcher</artifactId>
+			<version>1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.extjar.framework</groupId>
+			<artifactId>ant-testutil</artifactId>
+			<version>1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.extjar.framework</groupId>
+			<artifactId>ant</artifactId>
+
+			<version>1.0</version>
+
+		</dependency>
+
+		<dependency>
+			<groupId>com.extjar.framework</groupId>
+			<artifactId>axis-ant</artifactId>
+
+			<version>1.0</version>
+
+		</dependency>
+
+		<dependency>
+			<groupId>com.extjar.framework</groupId>
+			<artifactId>axis-REV609819</artifactId>
+
+			<version>1.0</version>
+
+		</dependency>
+		<dependency>
+			<groupId>com.extjar.framework</groupId>
+			<artifactId>jaxrpc</artifactId>
+
+			<version>1.0</version>
+
+		</dependency>
+		<dependency>
+			<groupId>com.extjar.framework</groupId>
+			<artifactId>jmock</artifactId>
+
+			<version>1.1.0</version>
+
+		</dependency>
+		<dependency>
+			<groupId>com.extjar.framework</groupId>
+			<artifactId>mantisconnect-client-api</artifactId>
+
+			<version>1.1.1.0</version>
+
+		</dependency>
+		<dependency>
+			<groupId>com.extjar.framework</groupId>
+			<artifactId>commons-discovery</artifactId>
+
+			<version>0.2</version>
+
+		</dependency>
+		<dependency>
+			<groupId>com.extjar.framework</groupId>
+			<artifactId>saaj</artifactId>
+
+			<version>1.0</version>
+
+		</dependency>
+		<dependency>
+			<groupId>com.extjar.framework</groupId>
+			<artifactId>testlink-api-client</artifactId>
+
+			<version>2.0</version>
+
+		</dependency>
+		<dependency>
+			<groupId>com.extjar.framework</groupId>
+			<artifactId>wsdl4j</artifactId>
+			<version>1.5.1</version>
+		</dependency>
+		<dependency>
+			<groupId>net.rcarz</groupId>
+			<artifactId>jira-client</artifactId>
+			<version>0.5</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20170516</version>
+		</dependency>
+
+
+		<!-- https://mvnrepository.com/artifact/br.eti.kinoshita/testlink-java-api -->
+		<!-- <dependency> <groupId>br.eti.kinoshita</groupId> <artifactId>testlink-java-api</artifactId> 
+			<version>1.9.16-1</version> </dependency> -->
+	</dependencies>
+
+	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-surefire-plugin</artifactId>
+					<version>2.19.1</version>
+					<!--Configuration of TestNG with Maven -->
+					<configuration>
+						<!--Configuration of Parallel Execution -->
+						<!-- <parallel>classes</parallel> <threadCount>3</threadCount> -->
+						<properties>
+							<property>
+								<!--Configuration of Verbose of Report or Information -->
+								<name>surefire.testng.verbose</name>
+								<value>2</value>
+							</property>
+						</properties>
+						<suiteXmlFiles>
+							<!--Configuration of xml file that is picked by maven to run TestNG 
+								suite -->
+							<suiteXmlFile>testng.xml</suiteXmlFile>
+						</suiteXmlFiles>
+					</configuration>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<version>3.6.0</version>
+					<configuration>
+						<verbose>true</verbose>
+						<fork>true</fork>
+						<executable>${JAVA_HOME}/bin/javac</executable>
+						<compilerVersion>1.8</compilerVersion>
+						<source>1.8</source>
+						<target>1.8</target>
+					</configuration>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-javadoc-plugin</artifactId>
+					<version>2.10.4</version>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
+</project>
