@@ -19,7 +19,8 @@ import utilities.TestLinkUtil;
 @CucumberOptions(
 		features = "classpath:features",
 		plugin = {"pretty", "html:target/cucumber-html-report","json:target/cucumber.json"},
-		tags = {"@Webtest"}
+		tags = {}
+		//"@Webtest"
 		//@BarneysWebTest
 		//"@MaxBupaWebTest"
 		)

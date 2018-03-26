@@ -48,6 +48,8 @@ public class ShoppingCart extends KeywordUtil{
 
 	@Given("^I open UPC website$")
 	public void i_open_UPC_website() {
+		
+		System.out.println("see here : "+GlobalUtil.getCommonSettings().getUrl());
 		navigateToUrl(GlobalUtil.getCommonSettings().getUrl());
 	}
 

@@ -379,6 +379,21 @@ public class KeywordUtil extends GlobalUtil{
 		}
 		return true;
 	}
+	
+	public static boolean hoverOnElement(By by) throws InterruptedException {
+
+		WebElement element = getDriver().findElement(by);
+		// highLightElement(driver,element );
+		//Thread.sleep(5000);
+
+		Actions act = new Actions(getDriver());
+		act.moveToElement(element).build().perform();
+
+		Thread.sleep(3000);
+
+		return true;
+
+	}
 
 	/**
 	 * @param locator
